@@ -1,0 +1,44 @@
+🧠 Why This Is Important
+Without a Load Balancer:
+Client
+   ↓
+Server 1
+
+If Server 1 fails:
+❌ Application Down
+
+With a Load Balancer:
+          Client
+             ↓
+      Load Balancer
+      ↙     ↓      ↘
+ Server1 Server2 Server3
+
+Benefits:
+	•	✅ High Availability
+	•	✅ Fault Tolerance
+	•	✅ Scalability
+	•	✅ Better Performance
+
+⸻
+
+Used By
+	•	Nginx
+	•	HAProxy
+	•	AWS ELB
+	•	Kubernetes Ingress
+
+⸻
+
+🛠 Tech Stack
+	•	Python
+	•	Flask
+	•	itertools
+
+⸻
+
+📂 Project Structure
+load-balancer-service/
+│
+├── app.py
+└── README.md
